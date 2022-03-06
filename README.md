@@ -15,5 +15,3 @@ gdacs website:
 https://gdacs.org/
 
 I may improve this in the future
-
-Feel free to fork this repository or contribute
