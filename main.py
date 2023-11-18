@@ -2,7 +2,7 @@ from gdacs.api import GDACSAPIReader
 
 import json
 from os import system, name
-from time import sleep as amimir
+from time import sleep
 
 
 client = GDACSAPIReader()
@@ -42,11 +42,11 @@ def main():
         while 1:
             clear_console()
             display_data()
-            amimir(300)
+            sleep(300)
             
     except Exception as e:
         print(f'Error: {e} - will retry in 5 minutes.')
-        amimir(300)
+        sleep(300)
         main()
 
 
